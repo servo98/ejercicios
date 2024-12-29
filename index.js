@@ -1,7 +1,2 @@
-function suma(a, b){
-    return a+b
-}
+// const { isPair } = require('./ejercicios/condicionales');
 
-module.exports = {
-    suma
-}
