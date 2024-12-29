@@ -1,10 +1,21 @@
-const {suma} = require('./ejercicios/condicionales')
+const {isPair} = require('./ejercicios/condicionales')
 
 
-describe('Ejercicios de condicionales', () => {
-    test('Determinar si un número es par o impar', () => {
-        expect(suma).toBeDefined()
-        expect(suma).toBe('function')
-        expect(sum)
-    })
-})
+describe('Función isPair', () => {
+    // Casos de prueba con un arreglo
+    const casosDePrueba = [
+      { input: 2, expected: true },
+      { input: 3, expected: false },
+      { input: 0, expected: true },
+      { input: -4, expected: true },
+      { input: -3, expected: false },
+      { input: 1001, expected: false },
+      { input: 1002, expected: true },
+    ];
+  
+    casosDePrueba.forEach(({ input, expected }) => {
+      test(`Debería retornar ${expected} cuando el número ingresado es ${input}`, () => {
+        expect(isPair(input)).toBe(expected);
+      });
+    });
+  });

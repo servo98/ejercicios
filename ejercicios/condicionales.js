@@ -9,6 +9,9 @@
  * 
  * isPair(number)
  */
+function isPair(number){
+
+}
 
 /**
  * Ejercicio 1.2
@@ -17,6 +20,9 @@
  * 
  * greatest(number1, number2)
  */
+function greatest(number1, number2){
+
+}
 
 /**
  * Ejercicio 1.3
@@ -25,6 +31,9 @@
  * 
  * compareLength(string1, string2)
  */
+function compareLength(string1, string2){
+
+}
 
 /**
  * Ejercicio 1.4
@@ -33,6 +42,9 @@
  * 
  * getDay(number)
  */
+function getDay(number){
+
+}
 
 
 /**
@@ -42,6 +54,9 @@
  * 
  * gradeStudent(number)
  */
+function gradeStudent(number){
+
+}
 
 // 2.- BUCLES
 
