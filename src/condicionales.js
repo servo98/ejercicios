@@ -72,7 +72,7 @@ switch (number){
     case 7:
         return 'domingo'
     default:
-        return 'Número invalido'
+        return 'Número inválido'
 }
 }
 
