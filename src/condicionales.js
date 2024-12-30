@@ -57,7 +57,7 @@ function getDay(number){
 /**
  * Ejercicio 1.5
  * 
- * Haz una función llamada gradeStudent que reciba un número del 0 al 100 como parámetro y retorne la calificación como letra: 'A' (90-100), 'B' (80-89), 'C' (70-79), 'D' (60-69), 'F' (menos de 60)
+ * Haz una función llamada gradeStudent que reciba un número del 0 al 100 como parámetro y retorne la calificación como letra: 'A' (90-100), 'B' (80-89), 'C' (70-79), 'D' (60-69), 'F' (menos de 60) también modifica tu código de manera que pueda pasar todos los tests
  * 
  * gradeStudent(number)
  */
