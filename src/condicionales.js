@@ -3,7 +3,7 @@
 /**
  * Ejercicio 1.1
  * 
- * Determinar si un número es par o impart
+ * Determinar si un número es par o impar
  * 
  * Crea una función llamada isPair que reciba un número como parámetro y que retorne true si es número par o false si es impar
  * 
@@ -117,12 +117,3 @@ function gradeStudent(number){
  * getlastWord(string)
  * 
  */
-
-
-module.exports = {
-    isPair,
-    greatest,
-    compareLength,
-    getDay,
-    gradeStudent
-}

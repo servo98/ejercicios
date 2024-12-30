@@ -1,4 +1,3 @@
-const {isPair} = require('./ejercicios/condicionales')
 
 
 describe('Función isPair', () => {
@@ -14,7 +13,7 @@ describe('Función isPair', () => {
     ];
   
     casosDePrueba.forEach(({ input, expected }) => {
-      test(`Debería retornar ${expected} cuando el número ingresado es ${input}`, () => {
+      it(`Debería retornar ${expected} cuando el número ingresado es ${input}`, () => {
         expect(isPair(input)).toBe(expected);
       });
     });
