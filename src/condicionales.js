@@ -34,12 +34,17 @@ function greatest(number1, number2){
 /**
  * Ejercicio 1.3
  * 
- * Haz una función de nombre compareLength que reciba dos cadenas como parámetros y retorne "cadena1" si la primera cadena es más larga,  "cadena2" si la seunda cadena es más larga, o "iguales" si tienen la misma longitud, puedes usar la propiedad .length para saber la longitud de una cadena
+ * Haz una función de nombre compareLength que reciba dos cadenas como parámetros y retorne "cadena1" si la primera cadena es más larga,  "cadena2" si la segunda cadena es más larga, o "iguales" si tienen la misma longitud, puedes usar la propiedad .length para saber la longitud de una cadena
  * 
  * compareLength(string1, string2)
  */
 function compareLength(string1, string2){
-
+    if(string1.length > string2.length){
+        return 'cadena1'
+    } else if (string1.length < string2.length) {
+        return 'cadena2'
+    }
+    return 'iguales'
 }
 
 /**
