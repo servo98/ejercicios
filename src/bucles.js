@@ -7,6 +7,17 @@
  */
 
 // count(number)
+function count(number){
+    if (number <= 0) {
+        return "Número inválido";
+    }
+
+    let cadena = "1";
+    for(let i = 2; i<=number; i++ ){
+        cadena = cadena + "," + i
+    }
+    return cadena
+}
 
 /**
  * Ejercicio 2.2
@@ -15,7 +26,17 @@
  */
 
 // sumUntil(number)
-
+function sumUntil(number){
+        if (number <= 0) {
+            return "Número inválido";
+        }
+    
+        let cadena = 1;
+        for(let i = 2; i<=number; i++ ){
+            cadena = cadena + i
+        }
+        return cadena
+}
 /**
  * Ejercicio 2.3
  *
@@ -23,3 +44,17 @@
  */
 
 // getPairs(number)
+function getPairs(number) {
+    if (number <= 0) {
+        return "Número inválido";
+    }
+
+    let cadena = "";
+    for (let i = 2; i <= number; i += 2) {
+        if (cadena !== "") {
+            cadena += ","; 
+        }
+        cadena = cadena + i;
+    }
+    return cadena;
+}
