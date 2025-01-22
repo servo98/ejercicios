@@ -31,6 +31,16 @@ function countWords(phrase){
  * 
  * Haz una función llamada hideInfo que reciba una cadena como parámetro y regrese una cadena la misma cadena pero remplazando todos los caracteres por * execpto los últimos 4 dígitos. Por ejemplo, "1234567890" -> "******7890"
  */
+function hideInfo(string){
+    let cadena = ""
+    let longitud = string.length
+    for(let i = 0; i<longitud-4; i++){
+        cadena += "*"
+    }
+    cadena += string.slice(longitud-4)
+    return cadena
+
+}
 
 /**
  * Ejercicio 3.4
