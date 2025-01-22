@@ -7,6 +7,32 @@
  */
 
 // vocalsCount(string)
+function vocalsCount(string){
+    let counter = 0;
+    string = string.toLowerCase()
+    longitud = string.length
+    for(let i = 0; i < longitud; i++){
+        switch(string.charAt(i)){
+            case 'a':
+                counter ++
+                break;
+            case 'i':
+                counter ++
+                break;
+            case 'e':
+                counter ++
+                break;
+            case 'o':
+                counter ++
+                break;
+            case 'u':
+                counter ++
+                break;
+        }
+    }
+    return counter;
+}
+
 
 /** 
  * Ejercicio 3.2
