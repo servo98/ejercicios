@@ -8,7 +8,6 @@
 
 // vocalsCount(string)
 
-
 /** 
  * Ejercicio 3.2
  * 
@@ -50,3 +49,8 @@ function hideInfo(string){
  * getlastWord(string)
  * 
  */
+function getlastWord(string){
+    string = string.trim().split(" ")
+    let longitud = string.length
+    return string[longitud-1]
+}
