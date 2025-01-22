@@ -16,6 +16,15 @@
  */
 
 // countWords(phrase)
+function countWords(phrase){
+    let palabras = 0
+    if(phrase != ""){
+        phrase = phrase.trim().split(" ")
+        palabras = phrase.length
+    }
+    return palabras
+}
+
 
 /**
  * Ejercicio 3.3

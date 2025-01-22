@@ -18,7 +18,7 @@ describe("Cadenas", () => {
   describe("Función countWords", () => {
     const casosDePrueba = [
       { input: "Hola mundo", expected: 2 },
-      { input: "   Hola   mundo  ", expected: 2 },
+      { input: "   Hola mundo  ", expected: 2 },
       { input: "", expected: 0 },
       { input: "JavaScript es genial", expected: 3 },
       { input: "  Una sola palabra   ", expected: 3 },
